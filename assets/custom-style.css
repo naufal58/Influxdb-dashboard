@@ -1,0 +1,78 @@
+/* Mengubah warna latar belakang dropdown yang diperluas */
+.Select-menu {
+    background-color: #021526 !important;  /* Warna biru tua untuk dropdown yang terbuka */
+    color: white !important;  /* Warna teks */
+}
+
+/* Mengubah warna kontrol dropdown (saat tertutup) */
+.Select-control {
+    background-color: #021526 !important;  /* Warna latar belakang dropdown */
+    color: white !important;  /* Warna teks */
+    border: 1px solid #0a1f44 !important;  /* Border dropdown */
+}
+
+/* Warna untuk teks placeholder */
+.Select-placeholder {
+    color: #94d2bd !important;  /* Warna teks placeholder yang lebih terang */
+}
+
+/* Mengubah warna teks opsi yang dipilih */
+.Select-value-label {
+    color: white !important;  /* Warna teks dari opsi yang dipilih agar lebih kontras */
+}
+
+/* Mengubah warna opsi dalam dropdown */
+.Select-option {
+    background-color: #021526 !important;  /* Warna latar belakang dari setiap opsi */
+    color: white !important;  /* Warna teks putih untuk semua opsi */
+}
+
+/* Warna opsi yang dipilih agar lebih kontras */
+.Select-option.is-selected {
+    background-color: #005f73 !important;  /* Warna biru terang untuk opsi yang dipilih */
+    color: #ffffff !important;  /* Warna teks putih */
+    font-weight: bold !important;  /* Teks opsi yang dipilih dibuat tebal */
+}
+
+/* Warna opsi saat di-hover */
+.Select-option.is-focused {
+    background-color: #0a1f44 !important;  /* Warna lebih gelap saat opsi di-hover */
+    color: white !important;  /* Warna teks saat hover */
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.dropdown-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-label {
+    font-size: 14px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.dcc-control {
+    background-color: #021526 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    padding: 5px;
+}
+
+.dcc-control:hover {
+    border: 1px solid #00ccff !important;
+}
+
+.filter-container {
+    background-color: #1E1E1E; /* Warna latar belakang */
+    padding: 10px;            /* Padding dalam kontainer */
+    border-radius: 5px;      /* Sudut melengkung */
+    min-height: 100px;       /* Tinggi minimum */
+    color: white;            /* Warna teks */
+}
+
